@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    background-image: url(ice\ cream.jpg);
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+.container{
+    background-color: aliceblue;
+    border: 10px;
+    box-shadow: 10px 20px 25px rgba(0,0,0.3 );
+    max-width: 100%;
+    overflow: hidden;
+    width: 500px;
+    border-radius: 10px;
+}
+
+h2{
+    margin: 0;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.form{
+    padding: 30px 30px;
+}
+.form-control{
+    padding: 10px;
+    margin-bottom: 25px;
+    position: relative;
+}
+.form-control label{
+    display:inline-block;
+    margin-bottom: 5px;
+}
+.form-control input{
+    border: 2px solid rgb(211, 208, 206);
+    border-radius: 5px;
+    display: block;
+    font-size: 15px;
+    padding: 10px;
+    width: 100%;
+}
+.form-control input:focus{
+    outline: none;
+    border-color: rgb(32, 31, 31);
+}
+.form-control input:hover{
+    background-color: rgb(195, 225, 235); ;
+}
+.form-control .error{
+    color: brown;
+    font-size: 17px;
+}
+.form-control .success input{
+    border-color: aquamarine;
+}
+.form-control .error input{
+    border-color:red;
+}
+.form button{
+    padding: 10px 10px;
+    background-color: rgb(3, 70, 50);
+    color: aliceblue;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    right: 10px;
+    margin-top: 20px;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+}
+.form button:hover{
+    background-color: rgb(10, 94, 119);
+}
